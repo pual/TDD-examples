@@ -24,6 +24,14 @@
     // label should not be nil
 }
 
+- (void)testButtonShouldBeASubviewOfTheMainView {
+    // button should be a subview of the view controller's view
+}
+
+- (void)testLabelShouldBeASuperviewOfTheMainView {
+    // label should be a subview of the view controller's view
+}
+
 - (void)testButtonLabelShouldBePushMe {
     // button title should be 'Push me'
 }
