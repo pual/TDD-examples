@@ -1,0 +1,6 @@
+target 'TDD_05_ViewControllersTests', :exclusive => true do
+    platform :ios, '6.0'
+
+    pod 'OCMock',  '~> 2.2.1'
+    pod 'Expecta', '~> 0.2.2'
+end
