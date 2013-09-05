@@ -28,7 +28,7 @@
     // button should be a subview of the view controller's view
 }
 
-- (void)testLabelShouldBeASuperviewOfTheMainView {
+- (void)testLabelShouldBeASubviewOfTheMainView {
     // label should be a subview of the view controller's view
 }
 
