@@ -2,7 +2,7 @@
 
 @interface RHFRootViewController : UIViewController
 
-@property (nonatomic, strong) UIButton *button;
-@property (nonatomic, strong) UILabel *label;
+@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, strong) IBOutlet UILabel *label;
 
 @end

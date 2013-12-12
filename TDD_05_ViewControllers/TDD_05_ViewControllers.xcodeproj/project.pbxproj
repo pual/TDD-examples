@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050A49631858E46700162318 /* RHFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050A49621858E46700162318 /* RHFRootViewController.xib */; };
 		22B29A8A17D900E600E68311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B29A8917D900E600E68311 /* UIKit.framework */; };
 		22B29A8C17D900E600E68311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B29A8B17D900E600E68311 /* Foundation.framework */; };
 		22B29A8E17D900E600E68311 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B29A8D17D900E600E68311 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050A49621858E46700162318 /* RHFRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RHFRootViewController.xib; sourceTree = "<group>"; };
 		13BCD6B857644194AD693E8D /* Pods-TDD_05_ViewControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD_05_ViewControllersTests.xcconfig"; path = "Pods/Pods-TDD_05_ViewControllersTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		1B4A59461C264C6EA2943D73 /* libPods-TDD_05_ViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD_05_ViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B29A8617D900E600E68311 /* TDD_05_ViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD_05_ViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 			children = (
 				22B29A9817D900E700E68311 /* RHFAppDelegate.h */,
 				22B29A9917D900E700E68311 /* RHFAppDelegate.m */,
+				050A49621858E46700162318 /* RHFRootViewController.xib */,
 				22B29ABE17D9038100E68311 /* RHFRootViewController.h */,
 				22B29ABF17D9038100E68311 /* RHFRootViewController.m */,
 				22B29A9017D900E700E68311 /* Supporting Files */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B29A9417D900E700E68311 /* InfoPlist.strings in Resources */,
+				050A49631858E46700162318 /* RHFRootViewController.xib in Resources */,
 				22B29A9C17D900E700E68311 /* Default.png in Resources */,
 				22B29A9E17D900E700E68311 /* Default@2x.png in Resources */,
 				22B29AA017D900E700E68311 /* Default-568h@2x.png in Resources */,

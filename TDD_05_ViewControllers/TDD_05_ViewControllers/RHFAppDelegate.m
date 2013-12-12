@@ -7,7 +7,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    RHFRootViewController *viewController = [[RHFRootViewController alloc] initWithNibName:nil bundle:nil];
+    RHFRootViewController *viewController = [[RHFRootViewController alloc] init];
     
     self.window.rootViewController = viewController;
     self.window.backgroundColor = [UIColor whiteColor];
